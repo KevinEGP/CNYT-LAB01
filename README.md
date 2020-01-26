@@ -4,9 +4,10 @@ Programado por: Kevin Edilson Garzón Piraban
 
 Contenido:
 Esta librería contiene operaciones básicas entre números complejos como son:
- * suma
- * resta
- * producto
- * cociente
- * etc
- Toda la información la puede encontrar aquí 
+   * suma
+   * resta
+   * producto
+   * cociente
+   * etc
+ Toda la información la puede encontrar [aquí](https://github.com/KevinEGP/LibreriaNumerosComplejos/edit/master/README.md)
+ 
