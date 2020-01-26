@@ -9,5 +9,5 @@ Esta librería contiene operaciones básicas entre números complejos como son:
    * producto
    * cociente
    * etc
- Toda la información la puede encontrar [aquí](https://github.com/KevinEGP/LibreriaNumerosComplejos/edit/master/README.md)
+ Toda la información la puede encontrar [aquí](https://github.com/KevinEGP/LibreriaNumerosComplejos/blob/master/html/Numeros%20Complejos.html)
  
