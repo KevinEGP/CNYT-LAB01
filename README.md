@@ -17,5 +17,4 @@ Además podemos encontrar diferentes puebras para cada una de las funciones con 
 
 Toda la información la puede encontrar [aquí](https://htmlpreview.github.io/?https://github.com/KevinEGP/LibreriaNumerosComplejos/blob/master/html/Numeros%20Complejos.html)
  
- 
- 
+Finalmente encontrará el archivo [lib.py](https://github.com/KevinEGP/LibreriaNumerosComplejos/blob/master/lib.py) en el cual están programadas todas las funciones descritas anteriormente. Estas funciones tiene unas pruebas de unidad que encontrará en el archivo [test_lib.py](https://github.com/KevinEGP/LibreriaNumerosComplejos/blob/master/test_lib.py) las cuales están verificadas en el archivo previamente mostrado [aquí](https://htmlpreview.github.io/?https://github.com/KevinEGP/LibreriaNumerosComplejos/blob/master/html/Numeros%20Complejos.html)
