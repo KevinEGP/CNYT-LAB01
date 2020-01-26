@@ -28,10 +28,10 @@ def test_rec():
         assert c.rec((3.605551275463989, 0.5880026035475675)) == (3.0, 1.9999999999999996), 'Debe ser (3.0, 1.9999999999999996)'
 
 def test_printP():
-        assert c.printP((3,2)) == "3e^(i2)", 'Debe ser 3e^(i2)'
+        assert c.str(printP((3,2))) == "3e^(i2)", 'Debe ser 3e^(i2)'
 
 def test_printR():
-        assert c.printR((3,2)) == "3 + 2i", 'Debe ser 3 + 2i'
+        assert c.str(printR((3,2))) == "3 + 2i", 'Debe ser 3 + 2i'
 
 
 if __name__=='__main__':
@@ -43,6 +43,6 @@ if __name__=='__main__':
     test_conjugado()
     test_pol()
     test_rec()
-    test_printP()
-    test_printR()
+    test_printP
+    test_printR
     print('Prueba exitosa')
