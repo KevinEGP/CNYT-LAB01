@@ -1,3 +1,12 @@
-# LibreriaNumerosComplejos
 ## CNYT Ciencias Naturales y Tecnologia
-Esta librería contiene operaciones básicas entre números complejos
+Primer proyecto de curso: Libreria de numeros complejos
+Programado por: Kevin Edilson Garzón Piraban
+
+Contenido:
+Esta librería contiene operaciones básicas entre números complejos como son:
+ * suma
+ * resta
+ * producto
+ * cociente
+ * etc
+ Toda la información la puede encontrar aquí 
