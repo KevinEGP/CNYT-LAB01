@@ -39,6 +39,8 @@ def sumaMatriz(A,B):
     else:
         return 'Dimensiones incorrectas'
 
+def restaMatrices(A,B):
+    return sumaMatriz(A,inversoAditivoMatriz(B))
 
 def escalarMatriz(A,k):
     """
@@ -46,10 +48,12 @@ def escalarMatriz(A,k):
     esclar que es un números complejos en forma de tupla. Retorna el producto escalar
     como una lista de listas.
     """
+    M = []
     for i in range(len(A)):
+        M.append([])
         for j in range(len(A[0])):
-            A[i][j] = lib.producto(k,A[i][j])
-    return A
+            M[i].append(lib.producto(A[i][j],k))
+    return M
             
 def inversoAditivoMatriz(A):
     """
@@ -57,8 +61,7 @@ def inversoAditivoMatriz(A):
     donde sus entradas son números complejos en forma de tupla. Retorna el inverso aditivo
     de la matriz como una lista de listas.
     """
-    A = escalarMatriz(A,(-1,0))
-    return A
+    return escalarMatriz(A,(-1,0))
 
 def transpuestaMatriz(A):
     """
@@ -79,10 +82,12 @@ def conjugadaMatriz(A):
     donde sus entradas son números complejos en forma de tupla. Retorna la conjudaga
     de la matriz como una lista de listas.
     """
+    M = []
     for i in range(len(A)):
+        M.append([])
         for j in range(len(A[0])):
-            A[i][j] = lib.conjugado(A[i][j])
-    return A
+            M[i].append(lib.conjugado(A[i][j]))
+    return M
 
 def dagaMatriz(A):
     """
@@ -92,18 +97,18 @@ def dagaMatriz(A):
     """
     return transpuestaMatriz(conjugadaMatriz(A))
 
+def productoInterno(A,B):
+    return productoMatriz(dagaMatriz(A),B)
+
 def main():
     
-    A = [[(1,0),(1,0),(1,0)],
-         [(1,0),(1,0),(1,0)]]
-        
-    B = [[(1,0),(1,0),(1,0)],
-         [(1,0),(1,0),(1,0)],
-         [(1,0),(1,0),(1,0)]]
+    A = [[(1, 0), (1, 0)],
+         [(1, -1), (1, 0)]]
+   
+    B = [[(-1, 0), (-1, 0)],
+         [(-1, 1), (-1, 0)]]
     
-    C = conjugadaMatriz(A)
-    
-    for i in range(len(C)):
-        print(C[i])
+    print(restaMatrices(A, A))
+    print()
     
 main()
