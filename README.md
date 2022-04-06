@@ -1,5 +1,4 @@
-# CNYT Ciencias Naturales y Tecnologia
-## Libreria Numeros Complejos
+# CNYT Libreria Numeros Complejos
 Primer proyecto de curso: Libreria de numeros complejos
 
 Programado por: Kevin Edilson Garzón Piraban
